@@ -4,6 +4,12 @@ Azure Bicep is a Domain-Specific Language (DSL) for deploying Azure resources de
 
 Here’s an overview of Bicep modules and sample code to get started:
 
+```
+az bicep version
+az bicep install 
+az bicep version
+```
+
 ---
 
 ## **What Are Bicep Modules?**
