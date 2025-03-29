@@ -5,6 +5,26 @@
 Azure Bicep is a **Domain-Specific Language (DSL)** for deploying Azure resources declaratively. It is **simpler, cleaner, and more readable** than traditional ARM JSON templates. Bicep also supports **modularity**, enabling you to reuse code and organize your infrastructure as code effectively.
 
 ---
+Ref:
+1. [What is Bicep?](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+2. [Bicep for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.visualstudiobicep)
+3. [Install Bicep tools](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install)
+4. [vscode-remote-try-bicep](https://github.com/Azure/vscode-remote-try-bicep)
+5. [Create Bicep files with Visual Studio Code](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=azure-cli)
+6. [Bicep Playground](https://azure.github.io/bicep/)
+7. [Learn modules for Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/learn-bicep)
+8. [Decompile a JSON Azure Resource Manager template to Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/decompile?tabs=azure-cli)
+9. [Define resources with Bicep, ARM templates, and Terraform AzAPI provider](https://learn.microsoft.com/en-us/azure/templates/)
+10. [azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts)
+
+```
+az bicep version
+az bicep upgrade
+az login
+
+bicep build 
+az deployment create
+```
 
 ## 🛠️ Prerequisites
 
