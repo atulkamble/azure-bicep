@@ -30,7 +30,39 @@ az bicep upgrade
 az deployment create
 bicep build
 ```
+```bash
+cd Downloads
+git clone https://github.com/atulkamble/azure-bicep.git
+cd azure-bicep
 
+// Add Extension bicep in VSCode
+
+az account show
+az account set --subscription "cc57cd42-dede-4674-b810-a0fbde41504a"
+
+az group list --output table
+az group create --name myRG --location eastus
+az deployment group create --resource-group myRG --template-file main01.bicep
+
+
+az deployment group create --resource-group myRG --template-file main01.bicep
+
+az bicep build --file main.bicep
+az bicep decompile --file template.json
+az deployment group show --resource-group <your-resource-group>
+
+az group delete --name myRG --yes --no-wait
+
+az deployment group list --resource-group myRG --output table
+
+az deployment group delete --name main01 --resource-group myRG
+
+az resource delete --name mystorageaccount --resource-group myRG --resource-type "Microsoft.Storage/storageAccounts"
+
+rm main.bicep
+Remove-Item main.bicep
+
+```
 ---
 
 ## 🔧 What Are Bicep Modules?
