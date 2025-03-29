@@ -17,23 +17,18 @@ Ref:
 9. [Define resources with Bicep, ARM templates, and Terraform AzAPI provider](https://learn.microsoft.com/en-us/azure/templates/)
 10. [azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts)
 
-```
-az bicep version
-az bicep upgrade
-az login
-
-bicep build 
-az deployment create
-```
 
 ## 🛠️ Prerequisites
 
 Install and verify Bicep CLI with Azure CLI:
 
 ```bash
+az login
 az bicep version
 az bicep install 
-az bicep version
+az bicep upgrade
+az deployment create
+bicep build
 ```
 
 ---
